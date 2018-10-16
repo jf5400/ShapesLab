@@ -7,6 +7,6 @@ public abstract class Shape {
     public abstract double getArea();
     public abstract double getPerimeter();
     public String toString(){
-        return "I am a "+type+".";
+        return "I am a " + type + ".";
     }
 }
