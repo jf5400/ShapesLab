@@ -9,7 +9,7 @@ public class ETriangle extends Shape
     }
     @Override
     public double getArea(){
-        return (Math.pow(3,.5)*Math.pow(side, 2))*(1/4);
+        return (Math.pow(3,.5)*(1/4)*Math.pow(side, 2));
     }
     @Override
     public double getPerimeter(){
