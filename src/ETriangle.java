@@ -1,6 +1,6 @@
 public class ETriangle extends Shape
 {
-    //identifies the side of the triangle
+    //identifies the length of the side of the Equilateral triangle
     private int side;
     public ETriangle(int side)
     {
