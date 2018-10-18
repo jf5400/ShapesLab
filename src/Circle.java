@@ -1,5 +1,9 @@
 public class Circle extends Shape
 {
+    /**
+     * identifies the radius of the circle
+     * identifies type of shape as "Circle"
+     */
     private int radius;
     public Circle (int radius)
     {
@@ -7,6 +11,10 @@ public class Circle extends Shape
         this.radius = radius;
     }
     @Override
+    /**
+     * calculates and returns area
+     * calculates and returns perimeter
+     */
     public double getArea()
     {
         return Math.pow(Math.PI*radius,2);
