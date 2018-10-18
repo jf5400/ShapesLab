@@ -1,5 +1,8 @@
 public class Rectangle extends Shape
 {
+    /**
+     * identifies both sides of the rectangle
+     */
     private int side1;
     private int side2;
     public Rectangle(int side1, int side2)
@@ -9,6 +12,10 @@ public class Rectangle extends Shape
         this.side2=side2;
     }
 
+    /**
+     * calculates the area and perimeter
+     * @returns both as well
+     */
     @Override
     public double getArea()
     {

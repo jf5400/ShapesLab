@@ -1,5 +1,9 @@
 public class Ellipse extends Shape
 {
+    /**
+     * identifies the length of a from the center
+     * identifies the length of b from the center
+     */
     private int a;
     private int b;
     public Ellipse (int a ,int b)
@@ -8,6 +12,11 @@ public class Ellipse extends Shape
         this.a = a;
         this.b = b;
     }
+
+    /**
+     * calculates and returns the area
+     * calculates and returns the perimeter
+     */
     @Override
     public double getArea() {return a*b*Math.PI;}
     @Override
