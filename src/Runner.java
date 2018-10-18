@@ -6,7 +6,11 @@ public class Runner
         Shape shape2 = new ETriangle(8);
         Shape shape3 = new Rectangle(9,4);
         Shape shape4 = new Ellipse(5,7);
-        Shape[] shapes = {shape1, shape2,shape3,shape4};
+        Shape shape5 = new Square(4);
+        Shape shape6 = new Square(4);
+
+        Shape[] shapes = {shape1, shape2, shape3,shape4, shape5, shape6 };
+
         for (Shape cur : shapes)
         {
             System.out.println(cur);

@@ -8,14 +8,27 @@ public class Rectangle extends Shape
     public Rectangle(int side1, int side2)
     {
         super("Rectangle");
+
+
         this.side1=side1;
         this.side2=side2;
     }
-
     /**
      * calculates the area and perimeter
-     * @returns both as well
+     * @return both as well
      */
+    public Rectangle(int side)
+    {
+        super("Square");
+        this.side1=side;
+        this.side2=side;
+    }
+
+    /**
+     * special rectangle is defined as a square, such that side lengths are equal
+     */
+
+
     @Override
     public double getArea()
     {
