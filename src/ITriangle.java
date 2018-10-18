@@ -1,4 +1,4 @@
-public class ITriangle
+public class ITriangle extends Shape
 {
     private int side1;
     private int side2;
