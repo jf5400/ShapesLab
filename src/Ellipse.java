@@ -17,9 +17,7 @@ public class Ellipse extends Shape
      * calculates and returns the area
      * calculates and returns the perimeter
      */
-    @Override
     public double getArea() {return a*b*Math.PI;}
-    @Override
     public double getPerimeter() { return Math.PI*(3*(a+b)-Math.sqrt((3*a+b)*(a+3*b)));}
 }
 

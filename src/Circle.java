@@ -10,7 +10,6 @@ public class Circle extends Shape
         super("Circle");
         this.radius = radius;
     }
-    @Override
     /**
      * calculates and returns area
      * calculates and returns perimeter
@@ -19,7 +18,6 @@ public class Circle extends Shape
     {
         return Math.pow(Math.PI*radius,2);
     }
-    @Override
     public double getPerimeter()
     {
         return 2*Math.PI*radius;
